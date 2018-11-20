@@ -1,0 +1,26 @@
+{
+  "name": "rsoi-1",
+  "version": "1.0.0",
+  "description": "First lab in RSOI course",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RSOI/1.git"
+  },
+  "author": "Dmitry Zaitsev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RSOI/1/issues"
+  },
+  "homepage": "https://github.com/RSOI/1#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
